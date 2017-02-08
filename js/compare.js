@@ -1,6 +1,6 @@
 
 function Comparison (target, data){
-    this.target = target; //attributes
+    this.target = target;
     this.data = data;
     
     this.compareKeys = function(){
@@ -39,10 +39,3 @@ function Comparison (target, data){
         document.write(blah)
     }
 }
-
-
-// Comparison.prototype.name = function(){
-//     return this.name
-// }
-
-
